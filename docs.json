@@ -91,10 +91,21 @@
                 "tab": "Ecommerce",
                 "dropdowns": [
                   {
-                    "dropdown": "Developer"
+                    "dropdown": "Developer",
+                    "pages": [
+                      "test-page"
+                    ]
                   },
                   {
-                    "dropdown": "User guide"
+                    "dropdown": "User guide",
+                    "products": [
+                      {
+                        "product": "Product 1",
+                        "pages": [
+                          "test-page-2"
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
