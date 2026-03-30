@@ -153,6 +153,35 @@
             "product": "Last Mile"
           }
         ]
+      },
+      {
+        "tab": "OSP Solutions 2",
+        "products": [
+          {
+            "product": "Ecom product",
+            "pages": [
+              "page",
+              {
+                "group": "Start here",
+                "pages": [
+                  "here"
+                ]
+              }
+            ]
+          },
+          {
+            "product": "Last Mile Delivery",
+            "pages": [
+              "delivery-intro",
+              {
+                "group": "Start here",
+                "pages": [
+                  "go-here"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
