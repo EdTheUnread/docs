@@ -16,7 +16,8 @@
           {
             "item": "Ecommerce",
             "description": "what is this",
-            "groups": [
+            "pages": [
+              "overview-1",
               {
                 "group": "Getting started",
                 "pages": [
@@ -54,7 +55,6 @@
           {
             "group": "Ecom",
             "pages": [
-              "overview-1",
               {
                 "group": "Get started",
                 "pages": [
