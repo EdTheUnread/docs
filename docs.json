@@ -107,11 +107,15 @@
         "groups": [
           {
             "group": "Group 1",
-            "pages": []
+            "pages": [
+              "test-page-3"
+            ]
           },
           {
             "group": "Group 2",
-            "pages": []
+            "pages": [
+              "test-page-4"
+            ]
           }
         ]
       }
