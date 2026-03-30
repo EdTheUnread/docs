@@ -17,7 +17,9 @@
             "item": "Ecommerce",
             "description": "what is this",
             "pages": [
-              "tewst-page-3"
+              "tewst-page-3",
+              "something-else",
+              "and-another-page"
             ]
           },
           {
