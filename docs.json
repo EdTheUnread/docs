@@ -9,32 +9,61 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "dropdowns": [
+    "products": [
       {
-        "dropdown": "Products/Solutions",
+        "product": "Ecommerce",
         "tabs": [
-          {
-            "tab": "Sol: Ecommerce"
-          },
           {
             "tab": "Sol: Last Mile"
           },
           {
-            "tab": "API reference",
+            "tab": "Test Nav Section",
             "groups": [
               {
-                "group": "API documentation",
+                "group": "Group 1",
                 "pages": [
-                  "api-reference/introduction"
+                  "test-page-3"
                 ]
               },
               {
-                "group": "Endpoint examples",
+                "group": "Group 2",
                 "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+                  "test-page-4"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Test",
+            "dropdowns": [
+              {
+                "dropdown": "Solutions",
+                "tabs": [
+                  {
+                    "tab": "Ecommerce",
+                    "dropdowns": [
+                      {
+                        "dropdown": "Developer",
+                        "pages": [
+                          "test-page"
+                        ]
+                      },
+                      {
+                        "dropdown": "User guide",
+                        "products": [
+                          {
+                            "product": "Product 1",
+                            "pages": [
+                              "test-page-2"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "Supply Chain"
+                  }
                 ]
               }
             ]
@@ -77,58 +106,36 @@
             ]
           },
           {
-            "tab": "Test",
-            "dropdowns": [
+            "tab": "API reference",
+            "groups": [
               {
-                "dropdown": "Solutions",
-                "tabs": [
-                  {
-                    "tab": "Ecommerce",
-                    "dropdowns": [
-                      {
-                        "dropdown": "Developer",
-                        "pages": [
-                          "test-page"
-                        ]
-                      },
-                      {
-                        "dropdown": "User guide",
-                        "products": [
-                          {
-                            "product": "Product 1",
-                            "pages": [
-                              "test-page-2"
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "tab": "Supply Chain"
-                  }
+                "group": "API documentation",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Endpoint examples",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
                 ]
               }
             ]
           },
           {
-            "tab": "Test Nav Section",
-            "groups": [
-              {
-                "group": "Group 1",
-                "pages": [
-                  "test-page-3"
-                ]
-              },
-              {
-                "group": "Group 2",
-                "pages": [
-                  "test-page-4"
-                ]
-              }
-            ]
+            "tab": "Sol: Ecommerce"
+          },
+          {
+            "tab": "Solutions",
+            "icon": "box-open-full"
           }
         ]
+      },
+      {
+        "product": "Last Mile"
       }
     ]
   },
