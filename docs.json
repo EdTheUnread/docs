@@ -92,6 +92,10 @@
       {
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
+      },
+      {
+        "label": "BBC",
+        "href": "http://www.bbc.co.uk/"
       }
     ],
     "primary": {
