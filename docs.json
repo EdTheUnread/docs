@@ -16,10 +16,22 @@
           {
             "item": "Ecommerce",
             "description": "what is this",
-            "pages": [
-              "tewst-page-3",
-              "something-else",
-              "and-another-page"
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "tewst-page-3",
+                  "something-else",
+                  "and-another-page"
+                ]
+              },
+              {
+                "group": "Onboarding",
+                "pages": [
+                  "new-partners",
+                  "new-users"
+                ]
+              }
             ]
           },
           {
