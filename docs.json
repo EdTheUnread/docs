@@ -9,112 +9,123 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guides",
-        "groups": [
+        "dropdown": "Products/Solutions",
+        "tabs": [
           {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "tab": "Sol: Ecommerce"
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "tab": "Sol: Last Mile"
           },
           {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Test",
-        "dropdowns": [
-          {
-            "dropdown": "Solutions",
-            "tabs": [
+            "tab": "API reference",
+            "groups": [
               {
-                "tab": "Ecommerce",
-                "dropdowns": [
-                  {
-                    "dropdown": "Developer",
-                    "pages": [
-                      "test-page"
-                    ]
-                  },
-                  {
-                    "dropdown": "User guide",
-                    "products": [
-                      {
-                        "product": "Product 1",
-                        "pages": [
-                          "test-page-2"
-                        ]
-                      }
-                    ]
-                  }
+                "group": "API documentation",
+                "pages": [
+                  "api-reference/introduction"
                 ]
               },
               {
-                "tab": "Supply Chain"
+                "group": "Endpoint examples",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
               }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Test Nav Section",
-        "groups": [
-          {
-            "group": "Group 1",
-            "pages": [
-              "test-page-3"
             ]
           },
           {
-            "group": "Group 2",
-            "pages": [
-              "test-page-4"
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "index",
+                  "quickstart",
+                  "development"
+                ]
+              },
+              {
+                "group": "Customization",
+                "pages": [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Writing content",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/reusable-snippets"
+                ]
+              },
+              {
+                "group": "AI tools",
+                "pages": [
+                  "ai-tools/cursor",
+                  "ai-tools/claude-code",
+                  "ai-tools/windsurf"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Test",
+            "dropdowns": [
+              {
+                "dropdown": "Solutions",
+                "tabs": [
+                  {
+                    "tab": "Ecommerce",
+                    "dropdowns": [
+                      {
+                        "dropdown": "Developer",
+                        "pages": [
+                          "test-page"
+                        ]
+                      },
+                      {
+                        "dropdown": "User guide",
+                        "products": [
+                          {
+                            "product": "Product 1",
+                            "pages": [
+                              "test-page-2"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "Supply Chain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Test Nav Section",
+            "groups": [
+              {
+                "group": "Group 1",
+                "pages": [
+                  "test-page-3"
+                ]
+              },
+              {
+                "group": "Group 2",
+                "pages": [
+                  "test-page-4"
+                ]
+              }
             ]
           }
         ]
