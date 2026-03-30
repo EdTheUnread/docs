@@ -58,6 +58,7 @@
             "dropdowns": [
               {
                 "dropdown": "ISF",
+                "description": "Some description",
                 "pages": [
                   "intro-to-isf",
                   {
@@ -79,6 +80,17 @@
               },
               {
                 "dropdown": "Manual CFC"
+              }
+            ]
+          },
+          {
+            "item": "FUL 2",
+            "tabs": [
+              {
+                "tab": "ISF TAB",
+                "pages": [
+                  "intron-page"
+                ]
               }
             ]
           }
