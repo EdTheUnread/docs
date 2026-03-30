@@ -17,23 +17,6 @@
             "tab": "Sol: Last Mile"
           },
           {
-            "tab": "Test Nav Section",
-            "groups": [
-              {
-                "group": "Group 1",
-                "pages": [
-                  "test-page-3"
-                ]
-              },
-              {
-                "group": "Group 2",
-                "pages": [
-                  "test-page-4"
-                ]
-              }
-            ]
-          },
-          {
             "tab": "Test",
             "dropdowns": [
               {
@@ -106,6 +89,38 @@
             ]
           },
           {
+            "tab": "Sol: Ecommerce"
+          },
+          {
+            "tab": "Test Nav Section",
+            "groups": [
+              {
+                "group": "Group 1",
+                "pages": [
+                  "test-page-3"
+                ]
+              },
+              {
+                "group": "Group 2",
+                "pages": [
+                  "test-page-4"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Untitled Tab"
+          }
+        ]
+      },
+      {
+        "product": "Last Mile",
+        "tabs": [
+          {
+            "tab": "Solutions",
+            "icon": "box-open-full"
+          },
+          {
             "tab": "API reference",
             "groups": [
               {
@@ -124,18 +139,8 @@
                 ]
               }
             ]
-          },
-          {
-            "tab": "Sol: Ecommerce"
-          },
-          {
-            "tab": "Solutions",
-            "icon": "box-open-full"
           }
         ]
-      },
-      {
-        "product": "Last Mile"
       }
     ]
   },
