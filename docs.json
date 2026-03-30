@@ -14,11 +14,17 @@
         "tab": "Solutions",
         "menu": [
           {
-            "item": "What",
-            "description": "what is this"
+            "item": "Ecommerce",
+            "description": "what is this",
+            "pages": [
+              "tewst-page-3"
+            ]
           },
           {
-            "item": "What 2"
+            "item": "Last Mile",
+            "pages": [
+              "test-page-4"
+            ]
           }
         ]
       },
