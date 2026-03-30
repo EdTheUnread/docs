@@ -103,7 +103,17 @@
         ]
       },
       {
-        "tab": "Test Nav Section"
+        "tab": "Test Nav Section",
+        "groups": [
+          {
+            "group": "Group 1",
+            "pages": []
+          },
+          {
+            "group": "Group 2",
+            "pages": []
+          }
+        ]
       }
     ]
   },
