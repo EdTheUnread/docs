@@ -54,6 +54,7 @@
           {
             "group": "Ecom",
             "pages": [
+              "overview-1",
               {
                 "group": "Get started",
                 "pages": [
@@ -72,6 +73,31 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "tab": "Sols",
+        "products": [
+          {
+            "product": "Ecom",
+            "groups": [
+              {
+                "group": "Begin here",
+                "pages": [
+                  "overview"
+                ]
+              },
+              {
+                "group": "Operate",
+                "pages": [
+                  "new-page"
+                ]
+              }
+            ]
+          },
+          {
+            "product": "Last Mile"
           }
         ]
       }
