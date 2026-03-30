@@ -9,136 +9,16 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "products": [
+    "tabs": [
       {
-        "product": "Ecommerce",
-        "tabs": [
+        "tab": "Solutions",
+        "menu": [
           {
-            "tab": "Sol: Last Mile"
+            "item": "What",
+            "description": "what is this"
           },
           {
-            "tab": "Test",
-            "dropdowns": [
-              {
-                "dropdown": "Solutions",
-                "tabs": [
-                  {
-                    "tab": "Ecommerce",
-                    "dropdowns": [
-                      {
-                        "dropdown": "Developer",
-                        "pages": [
-                          "test-page"
-                        ]
-                      },
-                      {
-                        "dropdown": "User guide",
-                        "products": [
-                          {
-                            "product": "Product 1",
-                            "pages": [
-                              "test-page-2"
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "tab": "Supply Chain"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "Guides",
-            "groups": [
-              {
-                "group": "Getting started",
-                "pages": [
-                  "index",
-                  "quickstart",
-                  "development"
-                ]
-              },
-              {
-                "group": "Customization",
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Writing content",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "AI tools",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "Sol: Ecommerce"
-          },
-          {
-            "tab": "Test Nav Section",
-            "groups": [
-              {
-                "group": "Group 1",
-                "pages": [
-                  "test-page-3"
-                ]
-              },
-              {
-                "group": "Group 2",
-                "pages": [
-                  "test-page-4"
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "Untitled Tab"
-          }
-        ]
-      },
-      {
-        "product": "Last Mile",
-        "tabs": [
-          {
-            "tab": "Solutions",
-            "icon": "box-open-full"
-          },
-          {
-            "tab": "API reference",
-            "groups": [
-              {
-                "group": "API documentation",
-                "pages": [
-                  "api-reference/introduction"
-                ]
-              },
-              {
-                "group": "Endpoint examples",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
-                ]
-              }
-            ]
+            "item": "What 2"
           }
         ]
       }
