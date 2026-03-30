@@ -21,6 +21,12 @@
             "item": "What 2"
           }
         ]
+      },
+      {
+        "tab": "Guides",
+        "pages": [
+          "test-page-2"
+        ]
       }
     ]
   },
