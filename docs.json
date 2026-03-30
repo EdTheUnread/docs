@@ -40,6 +40,47 @@
             "pages": [
               "test-page-4"
             ]
+          },
+          {
+            "item": "Fulfillment: In-Store Fulfillment",
+            "pages": [
+              "isf-overview"
+            ]
+          },
+          {
+            "item": "Fulfillment: OSRS",
+            "pages": [
+              "osrs-overview"
+            ]
+          },
+          {
+            "item": "Fulfillment",
+            "dropdowns": [
+              {
+                "dropdown": "ISF",
+                "pages": [
+                  "intro-to-isf",
+                  {
+                    "group": "Get started",
+                    "pages": [
+                      "start-here"
+                    ]
+                  },
+                  {
+                    "group": "Operarting",
+                    "pages": [
+                      "read-this"
+                    ]
+                  }
+                ]
+              },
+              {
+                "dropdown": "OSP CFC"
+              },
+              {
+                "dropdown": "Manual CFC"
+              }
+            ]
           }
         ]
       },
