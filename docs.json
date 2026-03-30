@@ -47,6 +47,33 @@
         "pages": [
           "test-page-2"
         ]
+      },
+      {
+        "tab": "Products",
+        "groups": [
+          {
+            "group": "Ecom",
+            "pages": [
+              {
+                "group": "Get started",
+                "pages": [
+                  "intro-page"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Fulfillment",
+            "pages": [
+              {
+                "group": "Get started",
+                "pages": [
+                  "intro-to-ful"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
