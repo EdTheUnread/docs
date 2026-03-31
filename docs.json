@@ -133,13 +133,12 @@
             "groups": [
               {
                 "group": "OSP Ecommerce",
-                "root": "overview-2",
                 "pages": [
+                  "overview-2",
                   {
                     "group": "Get started",
                     "icon": "acorn",
                     "pages": [
-                      "overview-2",
                       "page-1",
                       "page-2"
                     ]
