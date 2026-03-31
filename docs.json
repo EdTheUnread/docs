@@ -39,6 +39,7 @@
               {
                 "group": "Feature guide",
                 "icon": "star",
+                "expanded": false,
                 "pages": [
                   "ecom-features",
                   {
