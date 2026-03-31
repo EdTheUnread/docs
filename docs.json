@@ -27,12 +27,12 @@
                   "and-another-page",
                   {
                     "group": "Onboarding",
+                    "root": "onboarding",
                     "pages": [
                       "new-partners",
                       "new-users"
                     ]
-                  },
-                  "onboarding"
+                  }
                 ]
               }
             ]
@@ -53,47 +53,6 @@
             "item": "Fulfillment: OSRS",
             "pages": [
               "osrs-overview"
-            ]
-          },
-          {
-            "item": "Fulfillment",
-            "dropdowns": [
-              {
-                "dropdown": "ISF",
-                "description": "Some description",
-                "pages": [
-                  "intro-to-isf",
-                  {
-                    "group": "Get started",
-                    "pages": [
-                      "start-here"
-                    ]
-                  },
-                  {
-                    "group": "Operarting",
-                    "pages": [
-                      "read-this"
-                    ]
-                  }
-                ]
-              },
-              {
-                "dropdown": "OSP CFC"
-              },
-              {
-                "dropdown": "Manual CFC"
-              }
-            ]
-          },
-          {
-            "item": "FUL 2",
-            "tabs": [
-              {
-                "tab": "ISF TAB",
-                "pages": [
-                  "intron-page"
-                ]
-              }
             ]
           }
         ]
@@ -143,67 +102,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "Sols",
-        "products": [
-          {
-            "product": "Ecom",
-            "groups": [
-              {
-                "group": "Begin here",
-                "pages": [
-                  "overview"
-                ]
-              },
-              {
-                "group": "Operate",
-                "pages": [
-                  "new-page"
-                ]
-              }
-            ]
-          },
-          {
-            "product": "Last Mile"
-          }
-        ]
-      },
-      {
-        "tab": "OSP Solutions 2",
-        "products": [
-          {
-            "product": "Ecom product",
-            "pages": [
-              "page",
-              {
-                "group": "Start here",
-                "pages": [
-                  "here"
-                ]
-              }
-            ]
-          },
-          {
-            "product": "Last Mile Delivery",
-            "pages": [
-              "delivery-intro",
-              {
-                "group": "Start here",
-                "pages": [
-                  "go-here"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Developers",
-        "pages": [
-          "api",
-          "AGENTS"
-        ]
       }
     ]
   },
@@ -230,15 +128,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
