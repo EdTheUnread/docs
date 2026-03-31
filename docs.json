@@ -128,14 +128,14 @@
         "tab": "Site Section",
         "menu": [
           {
-            "item": "Ecommerce",
+            "item": "Ecommerce2",
             "tabs": [
               {
-                "tab": "Ecommerce",
+                "tab": "Ecommerce2",
                 "pages": [
                   "some-intro-page",
                   {
-                    "group": "Getting started",
+                    "group": "Getting started2",
                     "pages": [
                       "page-1",
                       "page-2"
@@ -143,7 +143,9 @@
                   },
                   {
                     "group": "Features",
-                    "pages": []
+                    "pages": [
+                      "untitled-page"
+                    ]
                   }
                 ]
               }
