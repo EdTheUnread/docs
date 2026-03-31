@@ -128,14 +128,14 @@
         "tab": "Site Section",
         "menu": [
           {
-            "item": "Ecommerce2",
-            "tabs": [
+            "item": "Ecommerce 2",
+            "groups": [
               {
-                "tab": "Ecommerce2",
+                "group": "Ecommerce 2",
                 "pages": [
-                  "some-intro-page",
+                  "overview-2",
                   {
-                    "group": "Getting started2",
+                    "group": "Get started",
                     "pages": [
                       "page-1",
                       "page-2"
@@ -144,7 +144,15 @@
                   {
                     "group": "Features",
                     "pages": [
-                      "untitled-page"
+                      "start-here",
+                      "delivery-intro"
+                    ]
+                  },
+                  {
+                    "group": "User guide",
+                    "pages": [
+                      "go-here",
+                      "intron-page"
                     ]
                   }
                 ]
