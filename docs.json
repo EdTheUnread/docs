@@ -176,7 +176,7 @@
     "drilldown": true
   },
   "banner": {
-    "content": "Hello",
+    "content": "Read about our new feature...",
     "dismissible": true
   }
 }
