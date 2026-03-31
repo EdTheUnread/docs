@@ -27,13 +27,12 @@
                   "and-another-page",
                   {
                     "group": "Onboarding",
-                    "icon": "graduation-cap",
-                    "expanded": true,
                     "pages": [
                       "new-partners",
                       "new-users"
                     ]
-                  }
+                  },
+                  "onboarding"
                 ]
               }
             ]
@@ -102,7 +101,20 @@
       {
         "tab": "Guides",
         "pages": [
-          "test-page-2"
+          "test-page-2",
+          {
+            "group": "Get started",
+            "pages": [
+              "untitled-page",
+              "this",
+              {
+                "group": "another group",
+                "pages": [
+                  "untitled-page3"
+                ]
+              }
+            ]
+          }
         ]
       },
       {
