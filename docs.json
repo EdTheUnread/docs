@@ -137,6 +137,7 @@
                   "overview-2",
                   {
                     "group": "Get started",
+                    "icon": "acorn",
                     "pages": [
                       "page-1",
                       "page-2"
@@ -144,6 +145,7 @@
                   },
                   {
                     "group": "Features",
+                    "icon": "archway",
                     "pages": [
                       "start-here",
                       "delivery-intro"
@@ -151,6 +153,7 @@
                   },
                   {
                     "group": "User guide",
+                    "icon": "book-open",
                     "pages": [
                       "go-here",
                       "intron-page",
