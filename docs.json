@@ -133,6 +133,7 @@
             "groups": [
               {
                 "group": "OSP Ecommerce",
+                "root": "overview-2",
                 "pages": [
                   "overview-2",
                   {
@@ -190,6 +191,7 @@
             "products": [
               {
                 "product": "Solution: Last Mile",
+                "description": "This is the solution for last mile",
                 "pages": [
                   "intro-to-isf",
                   {
