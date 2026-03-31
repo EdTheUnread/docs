@@ -183,6 +183,30 @@
                 ]
               }
             ]
+          },
+          {
+            "item": "Last Mile 2",
+            "description": "This is a description of last mile",
+            "products": [
+              {
+                "product": "Solution: Last Mile",
+                "pages": [
+                  "intro-to-isf",
+                  {
+                    "group": "Get going",
+                    "pages": [
+                      "an-intro-page-for-last-mile"
+                    ]
+                  },
+                  {
+                    "group": "Features and options",
+                    "pages": [
+                      "features-and-options"
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
