@@ -21,6 +21,7 @@
               {
                 "group": "Getting started",
                 "icon": "rocket-launch",
+                "expanded": true,
                 "pages": [
                   "tewst-page-3",
                   "something-else",
