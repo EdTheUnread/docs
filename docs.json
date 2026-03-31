@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "Test Docs Site",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -178,5 +178,6 @@
   "banner": {
     "content": "Read about our new feature...",
     "dismissible": true
-  }
+  },
+  "description": "A test site for docs"
 }
