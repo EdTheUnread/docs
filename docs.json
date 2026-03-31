@@ -129,6 +129,7 @@
         "menu": [
           {
             "item": "Ecommerce 2",
+            "description": "This is a descriptio0n of the item",
             "groups": [
               {
                 "group": "Ecommerce 2",
