@@ -227,5 +227,11 @@
   },
   "styling": {
     "eyebrows": "breadcrumbs"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": true
   }
 }
