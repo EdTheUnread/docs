@@ -153,7 +153,28 @@
                     "group": "User guide",
                     "pages": [
                       "go-here",
-                      "intron-page"
+                      "intron-page",
+                      {
+                        "group": "Contentful",
+                        "pages": [
+                          "new-page",
+                          "overview",
+                          {
+                            "group": "Recipes",
+                            "pages": [
+                              "read-this",
+                              "some-intro-page"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "group": "Promotions",
+                        "pages": [
+                          "page",
+                          "here"
+                        ]
+                      }
                     ]
                   }
                 ]
