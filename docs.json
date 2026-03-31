@@ -20,17 +20,20 @@
               "overview-1",
               {
                 "group": "Getting started",
+                "icon": "rocket-launch",
                 "pages": [
                   "tewst-page-3",
                   "something-else",
-                  "and-another-page"
-                ]
-              },
-              {
-                "group": "Onboarding",
-                "pages": [
-                  "new-partners",
-                  "new-users"
+                  "and-another-page",
+                  {
+                    "group": "Onboarding",
+                    "icon": "graduation-cap",
+                    "expanded": true,
+                    "pages": [
+                      "new-partners",
+                      "new-users"
+                    ]
+                  }
                 ]
               }
             ]
@@ -184,7 +187,11 @@
         ]
       },
       {
-        "tab": "New Tab"
+        "tab": "Developers",
+        "pages": [
+          "api",
+          "AGENTS"
+        ]
       }
     ]
   },
