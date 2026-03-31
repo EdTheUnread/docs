@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "mint",
   "name": "Test Docs Site",
   "colors": {
     "primary": "#16A34A",
@@ -118,6 +118,33 @@
                 "group": "Get started",
                 "pages": [
                   "intro-to-ful"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Site Section",
+        "menu": [
+          {
+            "item": "Ecommerce",
+            "tabs": [
+              {
+                "tab": "Ecommerce",
+                "pages": [
+                  "some-intro-page",
+                  {
+                    "group": "Getting started",
+                    "pages": [
+                      "page-1",
+                      "page-2"
+                    ]
+                  },
+                  {
+                    "group": "Features",
+                    "pages": []
+                  }
                 ]
               }
             ]
