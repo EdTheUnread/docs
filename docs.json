@@ -215,9 +215,21 @@
         "tab": "New Tab",
         "dropdowns": [
           {
-            "dropdown": "Drop 1",
+            "dropdown": "XXEcommerce",
             "pages": [
               "untitled-page3-1"
+            ]
+          },
+          {
+            "dropdown": "XXLast Mile",
+            "pages": [
+              "untitled-page4",
+              {
+                "group": "Get Started",
+                "pages": [
+                  "this-page-1"
+                ]
+              }
             ]
           }
         ]
