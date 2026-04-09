@@ -9,49 +9,91 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Solutions",
-        "menu": [
+        "dropdown": "Untitled Dropdown",
+        "tabs": [
           {
-            "item": "Ecommerce",
-            "description": "Understand OSP's Ecommerce solution",
-            "pages": [
-              "overview-1",
+            "tab": "Solutions",
+            "menu": [
               {
-                "group": "Getting started",
-                "icon": "rocket-launch",
-                "expanded": true,
+                "item": "Ecommerce",
+                "description": "Understand OSP's Ecommerce solution",
                 "pages": [
-                  "tewst-page-3",
-                  "something-else",
-                  "and-another-page",
+                  "overview-1",
                   {
-                    "group": "Onboarding",
-                    "root": "onboarding",
+                    "group": "Getting started",
+                    "icon": "rocket-launch",
+                    "expanded": true,
                     "pages": [
-                      "new-partners",
-                      "new-users"
+                      "tewst-page-3",
+                      "something-else",
+                      "and-another-page",
+                      {
+                        "group": "Onboarding",
+                        "root": "onboarding",
+                        "pages": [
+                          "new-partners",
+                          "new-users"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "group": "Feature guide",
+                    "icon": "star",
+                    "expanded": false,
+                    "pages": [
+                      "ecom-features",
+                      {
+                        "group": "Online store",
+                        "pages": [
+                          "s-omething"
+                        ]
+                      },
+                      {
+                        "group": "Shopping",
+                        "pages": [
+                          "another"
+                        ]
+                      }
                     ]
                   }
                 ]
               },
               {
-                "group": "Feature guide",
-                "icon": "star",
-                "expanded": false,
+                "item": "Last Mile",
                 "pages": [
-                  "ecom-features",
+                  "test-page-4"
+                ]
+              },
+              {
+                "item": "Fulfillment: In-Store Fulfillment",
+                "pages": [
+                  "isf-overview"
+                ]
+              },
+              {
+                "item": "Fulfillment: OSRS",
+                "pages": [
+                  "osrs-overview"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Guides",
+            "pages": [
+              "test-page-2",
+              {
+                "group": "Get started",
+                "pages": [
+                  "untitled-page",
+                  "this",
                   {
-                    "group": "Online store",
+                    "group": "another group",
                     "pages": [
-                      "s-omething"
-                    ]
-                  },
-                  {
-                    "group": "Shopping",
-                    "pages": [
-                      "another"
+                      "untitled-page3"
                     ]
                   }
                 ]
@@ -59,123 +101,111 @@
             ]
           },
           {
-            "item": "Last Mile",
-            "pages": [
-              "test-page-4"
-            ]
-          },
-          {
-            "item": "Fulfillment: In-Store Fulfillment",
-            "pages": [
-              "isf-overview"
-            ]
-          },
-          {
-            "item": "Fulfillment: OSRS",
-            "pages": [
-              "osrs-overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Guides",
-        "pages": [
-          "test-page-2",
-          {
-            "group": "Get started",
-            "pages": [
-              "untitled-page",
-              "this",
-              {
-                "group": "another group",
-                "pages": [
-                  "untitled-page3"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Products",
-        "groups": [
-          {
-            "group": "Ecom",
-            "pages": [
-              {
-                "group": "Get started",
-                "pages": [
-                  "intro-page"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Fulfillment",
-            "pages": [
-              {
-                "group": "Get started",
-                "pages": [
-                  "intro-to-ful"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Site Section",
-        "menu": [
-          {
-            "item": "Ecommerce 2",
-            "description": "This is a descriptio0n of the item",
+            "tab": "Products",
             "groups": [
               {
-                "group": "OSP Ecommerce",
+                "group": "Ecom",
                 "pages": [
-                  "overview-2",
                   {
                     "group": "Get started",
-                    "icon": "acorn",
                     "pages": [
-                      "page-1",
-                      "page-2"
+                      "intro-page"
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "group": "Fulfillment",
+                "pages": [
                   {
-                    "group": "Features",
-                    "icon": "archway",
+                    "group": "Get started",
                     "pages": [
-                      "start-here",
-                      "delivery-intro"
+                      "intro-to-ful"
                     ]
-                  },
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Site Section",
+            "menu": [
+              {
+                "item": "Ecommerce 2",
+                "description": "This is a descriptio0n of the item",
+                "groups": [
                   {
-                    "group": "User guide",
-                    "icon": "book-open",
+                    "group": "OSP Ecommerce",
                     "pages": [
-                      "go-here",
-                      "intron-page",
+                      "overview-2",
                       {
-                        "group": "Contentful",
+                        "group": "Get started",
+                        "icon": "acorn",
                         "pages": [
-                          "new-page",
-                          "overview",
-                          {
-                            "group": "Recipes",
-                            "pages": [
-                              "read-this",
-                              "some-intro-page"
-                            ]
-                          }
+                          "page-1",
+                          "page-2"
                         ]
                       },
                       {
-                        "group": "Promotions",
+                        "group": "Features",
+                        "icon": "archway",
                         "pages": [
-                          "page",
-                          "here"
+                          "start-here",
+                          "delivery-intro"
+                        ]
+                      },
+                      {
+                        "group": "User guide",
+                        "icon": "book-open",
+                        "pages": [
+                          "go-here",
+                          "intron-page",
+                          {
+                            "group": "Contentful",
+                            "pages": [
+                              "new-page",
+                              "overview",
+                              {
+                                "group": "Recipes",
+                                "pages": [
+                                  "read-this",
+                                  "some-intro-page"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "group": "Promotions",
+                            "pages": [
+                              "page",
+                              "here"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "item": "Last Mile 2",
+                "description": "This is a description of last mile",
+                "products": [
+                  {
+                    "product": "Solution: Last Mile",
+                    "description": "This is the solution for last mile",
+                    "pages": [
+                      "intro-to-isf",
+                      {
+                        "group": "Get going",
+                        "pages": [
+                          "an-intro-page-for-last-mile"
+                        ]
+                      },
+                      {
+                        "group": "Features and options",
+                        "pages": [
+                          "features-and-options"
                         ]
                       }
                     ]
@@ -183,33 +213,11 @@
                 ]
               }
             ]
-          },
-          {
-            "item": "Last Mile 2",
-            "description": "This is a description of last mile",
-            "products": [
-              {
-                "product": "Solution: Last Mile",
-                "description": "This is the solution for last mile",
-                "pages": [
-                  "intro-to-isf",
-                  {
-                    "group": "Get going",
-                    "pages": [
-                      "an-intro-page-for-last-mile"
-                    ]
-                  },
-                  {
-                    "group": "Features and options",
-                    "pages": [
-                      "features-and-options"
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
+      },
+      {
+        "dropdown": "Untitled Dropdown"
       }
     ]
   },
