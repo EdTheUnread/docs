@@ -212,10 +212,10 @@
         ]
       },
       {
-        "tab": "Untitled Tab",
+        "tab": "New Tab",
         "dropdowns": [
           {
-            "dropdown": "Untitled Dropdown",
+            "dropdown": "Drop 1",
             "pages": [
               "untitled-page3-1"
             ]
