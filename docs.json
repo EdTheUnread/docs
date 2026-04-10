@@ -134,7 +134,7 @@
               {
                 "group": "OSP Ecommerce",
                 "root": "overview-2",
-                "directory": "accordion",
+                "directory": "card",
                 "pages": [
                   "overview-2",
                   {
