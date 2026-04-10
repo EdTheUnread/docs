@@ -133,6 +133,7 @@
             "groups": [
               {
                 "group": "OSP Ecommerce",
+                "root": "overview-2",
                 "directory": "accordion",
                 "pages": [
                   "overview-2",
