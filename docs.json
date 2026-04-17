@@ -248,6 +248,7 @@
           {
             "item": "API Reference",
             "icon": "rocket",
+            "description": "Some description here",
             "groups": [
               {
                 "group": "Core endpoints",
@@ -267,7 +268,8 @@
             "item": "SDKs",
             "description": "This is a description of this menu item",
             "pages": [
-              "some-sdk"
+              "some-sdk",
+              "another-sdk"
             ]
           }
         ]
