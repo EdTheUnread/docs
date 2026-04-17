@@ -266,6 +266,7 @@
           },
           {
             "item": "SDKs",
+            "icon": "aperture",
             "description": "This is a description of this menu item",
             "pages": [
               "some-sdk",
