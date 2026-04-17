@@ -134,9 +134,7 @@
               {
                 "group": "OSP Ecommerce",
                 "root": "overview-2",
-                "directory": "card",
                 "pages": [
-                  "overview-2",
                   {
                     "group": "Get started",
                     "icon": "acorn",
@@ -234,6 +232,14 @@
               }
             ]
           }
+        ]
+      },
+      {
+        "tab": "Test tab 1",
+        "icon": "airplay",
+        "pages": [
+          "page-1-1",
+          "page-2-1"
         ]
       }
     ]
