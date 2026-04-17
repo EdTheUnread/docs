@@ -241,6 +241,36 @@
           "page-1-1",
           "page-2-1"
         ]
+      },
+      {
+        "tab": "Tab with menu",
+        "menu": [
+          {
+            "item": "API Reference",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "Core endpoints",
+                "pages": [
+                  "some-endpoint"
+                ]
+              },
+              {
+                "group": "Other endpoints",
+                "pages": [
+                  "some-other-endpoint"
+                ]
+              }
+            ]
+          },
+          {
+            "item": "SDKs",
+            "description": "This is a description of this menu item",
+            "pages": [
+              "some-sdk"
+            ]
+          }
+        ]
       }
     ]
   },
