@@ -143,7 +143,7 @@
         "menu": [
           {
             "item": "Ecommerce 2",
-            "description": "This is a descriptio0n of the item",
+            "description": "This is a description of the item",
             "groups": [
               {
                 "group": "OSP Ecommerce",
@@ -201,10 +201,9 @@
           {
             "item": "Last Mile 2",
             "description": "This is a description of last mile",
-            "products": [
+            "groups": [
               {
-                "product": "Solution: Last Mile",
-                "description": "This is the solution for last mile",
+                "group": "Solution: Last Mile",
                 "pages": [
                   "intro-to-isf",
                   {
