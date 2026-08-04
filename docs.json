@@ -66,13 +66,15 @@
                 "group": "Get started",
                 "pages": [
                   "untitled-page-2"
-                ]
+                ],
+                "expanded": true
               },
               {
                 "group": "Scheduled delivery",
                 "pages": [
                   "untitled-page-3"
-                ]
+                ],
+                "expanded": true
               }
             ]
           },
