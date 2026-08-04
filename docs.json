@@ -65,16 +65,16 @@
               {
                 "group": "Get started",
                 "pages": [
-                  "untitled-page-2"
-                ],
-                "expanded": true
+                  "untitled-page-2",
+                  "untitled-page-5"
+                ]
               },
               {
                 "group": "Scheduled delivery",
                 "pages": [
-                  "untitled-page-3"
-                ],
-                "expanded": true
+                  "untitled-page-3",
+                  "untitled-page-4"
+                ]
               }
             ]
           },
