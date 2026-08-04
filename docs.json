@@ -61,7 +61,19 @@
           {
             "item": "Last Mile",
             "pages": [
-              "test-page-4"
+              "test-page-4",
+              {
+                "group": "Get started",
+                "pages": [
+                  "untitled-page-2"
+                ]
+              },
+              {
+                "group": "Scheduled delivery",
+                "pages": [
+                  "untitled-page-3"
+                ]
+              }
             ]
           },
           {
