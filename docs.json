@@ -203,20 +203,22 @@
             "description": "This is a description of last mile",
             "groups": [
               {
-                "group": "Solution: Last Mile",
+                "group": "OSP Last Mile",
                 "pages": [
                   "intro-to-isf",
                   {
                     "group": "Get going",
                     "pages": [
                       "an-intro-page-for-last-mile"
-                    ]
+                    ],
+                    "icon": "airplay-audio"
                   },
                   {
                     "group": "Features and options",
                     "pages": [
                       "features-and-options"
-                    ]
+                    ],
+                    "icon": "angry"
                   }
                 ]
               }
