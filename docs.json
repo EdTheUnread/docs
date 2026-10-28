@@ -142,7 +142,7 @@
         "tab": "Site Section",
         "menu": [
           {
-            "item": "Ecommerce 2",
+            "item": "Ecommerce",
             "description": "This is a description of the item",
             "groups": [
               {
@@ -199,7 +199,7 @@
             ]
           },
           {
-            "item": "Last Mile 2",
+            "item": "Last Mile",
             "description": "This is a description of last mile",
             "groups": [
               {
